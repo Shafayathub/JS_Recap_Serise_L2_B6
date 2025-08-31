@@ -4,7 +4,12 @@ function first() {
 }
 
 function second() {
+  third()
   console.log("Second Done");
+}
+
+function third() {
+  console.log("Third Done");
 }
 
 first();
